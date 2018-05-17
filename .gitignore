@@ -19,3 +19,5 @@ static
 eduroom/*
 taiga/lib/*
 taiga/bin/*
+.idea/*
+**.idea/**
