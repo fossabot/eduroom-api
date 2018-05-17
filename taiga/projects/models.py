@@ -660,6 +660,24 @@ class Priority(models.Model):
     def __str__(self):
         return self.name
 
+# organization Models
+
+class Organisation(models.Model):
+    name = models.CharField(max_length=255, null=False, blank=False,
+                            verbose_name=_("name"))
+    
+    location = models.CharField(max_length=255, null=False, blank=False,
+                             verbose_name=_("location"))
+
+    class Meta:
+        verbose_name = "organisation"
+        verbose_name_plural = "organisations"
+        #ordering = ["project", "order", "name"]
+        #unique_together = ("project", "name")
+
+    def __str__(self):
+        return self.name
+
 
 class Severity(models.Model):
     name = models.CharField(max_length=255, null=False, blank=False,

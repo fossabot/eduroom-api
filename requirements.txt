@@ -1,7 +1,7 @@
 #djangorestframework==2.3.13    # It's not necessary since Taiga 1.7
 CairoSVG==2.0.3
 Django==1.11.2
-Markdown==2.6.8
+Markdown==2.6.8  # Markdown support for the browsable API.
 Pillow==4.1.1
 PyJWT==1.5.0
 Unidecode==0.4.20
@@ -37,7 +37,7 @@ pytz==2017.2
 raven==6.1.0
 redis==2.10.5
 requests-oauthlib==0.8.0
-requests==2.17.3
+requests==2.17.3 # simple view of api in browser
 serpy==0.1.1
 six==1.10.0
 webcolors==1.7

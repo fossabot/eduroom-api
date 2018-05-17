@@ -42,6 +42,11 @@ from taiga.userstorage.api import StorageEntriesViewSet
 
 router.register(r"user-storage", StorageEntriesViewSet, base_name="user-storage")
 
+# Organizations
+from taiga.organizations.api import OrganizationsViewSet
+
+router.register(r"organizations", OrganizationsViewSet, base_name="organizations") 
+
 
 # Notify policies
 from taiga.projects.notifications.api import NotifyPolicyViewSet

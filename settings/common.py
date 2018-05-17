@@ -175,7 +175,7 @@ SESSION_ENGINE = "django.contrib.sessions.backends.db"
 SESSION_COOKIE_AGE = 1209600 # (2 weeks)
 
 # MAIL OPTIONS
-DEFAULT_FROM_EMAIL = "john@doe.com"
+DEFAULT_FROM_EMAIL = "hello@eduroom.in"
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 DJMAIL_REAL_BACKEND = "django.core.mail.backends.console.EmailBackend"
@@ -293,6 +293,7 @@ INSTALLED_APPS = [
     "taiga.front",
     "taiga.users",
     "taiga.userstorage",
+    "taiga.organizations",
     "taiga.external_apps",
     "taiga.projects",
     "taiga.projects.references",
@@ -518,7 +519,7 @@ TAGS_PREDEFINED_COLORS = ["#fce94f", "#edd400", "#c4a000", "#8ae234",
 
 # Feedback module settings
 FEEDBACK_ENABLED = True
-FEEDBACK_EMAIL = "support@taiga.io"
+FEEDBACK_EMAIL = "hello@eduroom.in"
 
 # Stats module settings
 STATS_ENABLED = False

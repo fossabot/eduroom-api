@@ -25,7 +25,7 @@ accept_content = ['pickle',] # Values are 'pickle', 'json', 'msgpack' and 'yaml'
 task_serializer = "pickle"
 result_serializer = "pickle"
 
-timezone = 'Europe/Madrid'
+timezone = 'Asia/Kolkata'
 
 task_default_queue = 'tasks'
 task_queues = (
