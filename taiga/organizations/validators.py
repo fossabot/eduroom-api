@@ -6,4 +6,4 @@ from . import models
 class OrganizationValidator(validators.ModelValidator):
     class Meta:
         model = models.Organization
-        fields = ("id", "name", "project")
+        fields = ("name", "project")
